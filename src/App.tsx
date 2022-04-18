@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.scss';
+import { TodoList } from './components/TodoList';
+import UserList from './components/UserList';
 
 function App() {
   return (
     <div className="App">
-      App
+      <UserList />
+      <hr />
+      <TodoList />
     </div>
   );
 }
